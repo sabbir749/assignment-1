@@ -2,6 +2,13 @@
     margin: 0;
     padding: 0;
 }
+.hover:hover{
+background-color: red;
+
+}
+body {
+    background-color: #b8b8d521;
+}
 
 /* header section */
 /* navbar section */
@@ -151,7 +158,174 @@ header {
     color: #4E47FF;
     font-family: inter;
 }
-.container p{
+
+.container p {
     text-align: center;
     color: #00000071;
+}
+
+/* Users’ Feedback Section */
+.user-feedback {
+    max-width: 1140px;
+    height: 300px;
+    margin: 0 130px;
+    margin-bottom: 140px;
+}
+
+.comment-heading {
+    font-size: 40px;
+    font-family: raleway;
+    color: #252432;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+.container-review {
+    display: flex;
+    gap: 20px;
+}
+
+.review-items {
+    box-shadow: 1px 1px 4px 1px #cbcbcb1c;
+    width: 366px;
+    height: 180px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: white;
+}
+
+.review-items h3 {
+    margin-top: 22px;
+    margin-bottom: 8px;
+    font-size: 21px;
+    font-weight: 600;
+
+}
+
+.review-items p {
+    color: #1E1E1E;
+    font-size: 14px;
+    margin-bottom: 24px;
+}
+
+.reviewer {
+    display: flex;
+}
+
+.reviewer img {
+    border-radius: 50%;
+    margin-right: 12px;
+}
+
+.name-date b {
+    color: #757575;
+    font-size: 14px;
+}
+
+.name-date p {
+    color: #B3B3B3;
+}
+
+/* section focusing  */
+
+.focusing {
+    max-width: 1140px;
+    height: 690px;
+    background-color: white;
+    text-align: center;
+    border-radius: 15px;
+    margin: 0 130px;
+    margin-bottom: 90px;
+}
+
+.focusing h1 {
+    font-size: 45px;
+    font-family: raleway;
+    font-weight: bold;
+    padding-top: 65px;
+    margin-bottom: 20px;
+}
+
+.focusing p {
+    color: rgba(0, 0, 0, 0.466);
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.focusing button {
+    display: block;
+    margin: auto;
+    padding: 14px 36px;
+    border-radius: 10px;
+    color: white;
+    background-color: #4E47FF;
+    border: none;
+    font-family: raleway;
+    margin-bottom: 20px;
+
+}
+
+.focusing img {
+    border-radius: 50px;
+}
+
+/* Let’s Get In Touch Section */
+
+.get-in-touch {
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    max-width: 1120px;
+    height: 630px;
+    margin: 0 130px;
+    margin-top: 160px;
+}
+
+.get-in-touch h1 {
+    font-size: 97px;
+    font-family: raleway;
+    font-weight: bold;
+}
+
+form input {
+
+    padding: 20px 200px 20px 32px;
+    display: block;
+    border: 1px solid rgba(0, 0, 0, 0.137);
+    border-radius: 10px;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+form label {
+    font-size: 18px;
+    font-family: inter;
+    font-weight: 500;
+
+}
+
+form textarea {
+    display: block;
+    border-radius: 10px;
+    font-size: 18px;
+    margin: 10px 0;
+    padding: 20px 0 0 10px;
+    border: 1px solid rgba(0, 0, 0, 0.137);
+    color: rgba(0, 0, 0, 0.486);
+}
+
+form button {
+  
+    padding: 22px 188px;
+    border-radius: 10px;
+    color: white;
+    background-color: #4E47FF;
+    border: none;
+    font-family: raleway;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;   
 }
