@@ -2,10 +2,12 @@
     margin: 0;
     padding: 0;
 }
-.hover:hover{
-background-color: red;
+
+.hover:hover {
+    background-color: red;
 
 }
+
 body {
     background-color: #b8b8d521;
 }
@@ -312,14 +314,14 @@ form textarea {
     border-radius: 10px;
     font-size: 18px;
     margin: 10px 0;
-    padding: 20px 0 0 10px;
+    padding: 20px 0 0 25px;
     border: 1px solid rgba(0, 0, 0, 0.137);
     color: rgba(0, 0, 0, 0.486);
 }
 
 form button {
-  
-    padding: 22px 188px;
+
+    padding: 22px 186px;
     border-radius: 10px;
     color: white;
     background-color: #4E47FF;
@@ -327,5 +329,43 @@ form button {
     font-family: raleway;
     font-weight: bold;
     text-align: center;
-    margin-top: 10px;   
+    margin-top: 10px;
+}
+
+
+/* footer section  */
+footer {
+    text-align: center;
+    width: 100%;
+    background-color: white;
+    height: 420px;
+    box-shadow: -5px 5px 6px black;
+}
+
+.footer-container {
+    width: 530px;
+    height: 220px;
+    margin: 0 auto;
+    padding-top: 120px;
+}
+
+footer h1 {
+    font-size: 100px;
+    font-family: inter;
+    font-weight: 900;
+    color: #4E47FF;
+    margin-bottom: 8px;
+
+}
+
+footer p {
+    color: #8987A1;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.footer-container a{
+text-decoration: none;
+color: #8987A1;
+padding: 0px 15px;
 }
