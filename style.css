@@ -4,7 +4,8 @@
 }
 
 .hover:hover {
-    background-color: red;
+    background-color: rgb(216, 0, 0);
+    transition: 0.4s;
 
 }
 
@@ -334,6 +335,7 @@ form button {
 
 
 /* footer section  */
+
 .footer {
     text-align: center;
     width: 100%;
